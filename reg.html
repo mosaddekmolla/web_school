@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Informatics College</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="javascript/js.js="></script>
+<script src="javascript/reg.js"></script> 
+
+</head>
+<body class="body">
+<header class="mainheader">
+  <img src="imagess/logo.jpg">
+  <content id="search">
+    <form>
+  <input type="text" name="search" placeholder="Search anything..." onclick="window.location.href='search.html'">
+</form>
+  </content>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li id="dropdown-menu">CLASSES
+              <ul class="dropdown">
+                <li>Class 1</li>
+                <li>Class 2</li>
+                <li>Class 3</li>
+                <li>Class 5</li>
+              </ul>
+
+            </li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="login.html">Login</a></li>
+      <li><a href="reg.html">Registration</a></li>
+      <li id="dropdown-menu">FACILITIES
+              <ul class="dropdown">
+                <li>Library</li>
+                <li>Computer Lab</li>
+                <li>Auditorium</li>
+                <li>Club</li>
+              </ul>
+
+      </li>
+
+      <li> <a href="result.html">Results</a></li>
+      
+    </ul> 
+  </nav>
+</header>
+
+<div class="container">
+    <div class="main">
+    
+    <h3>Students Registration</h3><hr/>
+
+    
+ <form id="form_id" method="post" name="reg">
+          <h3>Please Input Your Information</h3>
+          <br/>
+
+
+              <strong>First Name</strong>
+              <input  type="text" name="fname" placeholder="Please Enter First Name:">
+              <br/>
+              <strong>Last Name</strong>
+              <input  type="text" name="lname" placeholder="Please Enter Last Name:">
+              <br/>
+              <strong>Email</strong>
+              <input  type="text" name="email" placeholder="Please Enter Email:">
+              <br/>
+              <strong>Password</strong>
+              <input  type="text" name="pass" placeholder="Please Enter Password:">
+              <br/>
+              <button  type="button" id="submit" onclick="input()">Registration</button>
+
+
+
+
+        </form>
+        
+
+            </div>
+
+<script type="text/javascript">
+  
+    function input(){
+
+      var fname = document.reg.fname.value;
+      var lname = document.reg.lname.value;
+      var email = document.reg.pass.value;
+      var pass = document.log_in.email.value;
+
+    }
+
+</script>
+   
+
+<footer class="mainFooter">
+  <p>Copyright &copy <a href="https://www.facebook.com/mosaddekmollaa">Mosaddek Rahman</a> </p>
+  <center>
+  <a href="https://www.facebook.com/mosaddekmollaa/">Facebook</a>
+  <a href="https://www.twitter.com/mosaddekmolla/">Twitter</a>
+  <a href="https://www.youtube.com/c/MosaDdekMolla/">Youtube</a>
+  </center>
+</footer>
+
+
+<script type="text/javascript">
+  document.title="Login";
+</script>
+</body>
+</html> 
